@@ -35,9 +35,9 @@ class Test554():
     self.driver.find_element(By.NAME, "date").click()
     self.driver.find_element(By.NAME, "date").send_keys("09.11.1970")
     self.driver.find_element(By.ID, "passportSeries").click()
-    self.driver.find_element(By.ID, "passportSeries").send_keys("32-56")
+    self.driver.find_element(By.ID, "passportSeries").send_keys("32-60")
     self.driver.find_element(By.ID, "passportNumber").click()
-    self.driver.find_element(By.ID, "passportNumber").send_keys("432567")
+    self.driver.find_element(By.ID, "passportNumber").send_keys("4320000")
     self.driver.find_element(By.CSS_SELECTOR, "#dateOfIssue .mx-input").click()
     self.driver.find_element(By.CSS_SELECTOR, "#dateOfIssue .mx-input").send_keys("11.11.1987")
     self.driver.find_element(By.ID, "code").click()
@@ -50,4 +50,4 @@ class Test554():
     self.driver.find_element(By.ID, "phone").send_keys("(_937)234-56 72")
     self.driver.find_element(By.CSS_SELECTOR, ".outline").click()
     self.driver.find_element(By.CSS_SELECTOR, ".fill").click()
-  
+
