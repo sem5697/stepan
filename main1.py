@@ -18,7 +18,7 @@ driver.find_element(By.CSS_SELECTOR,".form:nth-child(2) .document-tile:nth-child
 
 #Фамилия
 driver.find_element(By.ID,"surname").clear()
-driver.find_element(By.ID,"surname").send_keys("Котик")
+driver.find_element(By.ID,"surname").send_keys("Кот")
 
 #Имя
 driver.find_element(By.ID,"name").clear()
